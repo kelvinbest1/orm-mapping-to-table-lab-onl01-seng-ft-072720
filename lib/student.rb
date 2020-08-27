@@ -28,7 +28,7 @@ class Student
         grade TEXT
         )
         SQL
-        DB[:conn].execute(table_check_sql)[0]
+        DB[:conn].execute
 
   end
 
