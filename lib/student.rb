@@ -29,7 +29,7 @@ class Student
         )
         SQL
         DB[:conn].execute(table_check_sql)[0]
-      
+
   end
 
   def save
