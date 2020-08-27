@@ -22,7 +22,7 @@ class Student
 
  def self.drop_table
     sql =  <<-SQL
-      DROP TABLE students (
+      DROP TABLE nil (
         id INTEGER PRIMARY KEY,
         name TEXT,
         grade TEXT
