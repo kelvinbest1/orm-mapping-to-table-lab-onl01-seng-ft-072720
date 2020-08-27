@@ -21,14 +21,14 @@ class Student
  end
 
  def self.drop_table
-    sql =  <<-SQL 
+    sql =  <<-SQL
       DROP TABLE IF NOT EXISTS students (
-        id INTEGER PRIMARY KEY, 
-        name TEXT, 
+        id INTEGER PRIMARY KEY,
+        name TEXT,
         grade TEXT
         )
         SQL
-    DB[:conn].execute(sql) 
+    DB[:conn].execute(sql)
   end
 
   def save
