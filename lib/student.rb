@@ -28,7 +28,7 @@ class Student
         grade TEXT
         )
         SQL
-    
+
   end
 
   def save
